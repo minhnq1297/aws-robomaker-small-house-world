@@ -3,7 +3,7 @@
   <model name="aws_robomaker_residential_KitchenTable_01">
     <link name="link">
       <inertial>
-        <mass>12.3</mass>
+        <mass>0</mass>
       </inertial>
       <collision name="collision">
         <geometry>
