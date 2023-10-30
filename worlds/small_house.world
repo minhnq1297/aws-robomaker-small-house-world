@@ -108,7 +108,7 @@
         <include>
             <uri>model://aws_robomaker_residential_NightStand_01</uri>
         </include>
-        <pose frame=''>-9.087262 -2.857058 0 0 -0 1.57</pose>
+        <pose frame=''>-9.087262 -2.857058 0 0 -0 1.564130</pose>
 	</model>
 	<model name='Board_01_001'>
         <static>true</static>    
@@ -281,12 +281,20 @@
         <pose frame=''>-4.945503 -4.22174 -0.000006 0 -0 -1.564130</pose>
 	</model> -->
 
-	<model name='ReadingDesk_01_001'>
+	<!-- <model name='ReadingDesk_01_001'>
         <static>true</static>    
         <include>
             <uri>model://aws_robomaker_residential_ReadingDesk_01</uri>
         </include>
         <pose frame=''>-8.987262 0.257058 0 0 -0 -0.004638</pose>
+	</model> -->
+
+    <model name='NightStand_01_006'>
+        <static>true</static>    
+        <include>
+            <uri>model://aws_robomaker_residential_NightStand_01</uri>
+        </include>
+        <pose frame=''>-9.087262 0.257058 0 0 -0 1.564130</pose>
 	</model>
 
     <model name='NightStand_01_004'>
@@ -335,12 +343,20 @@
         <pose frame=''>3.484720 3.169104 0.003168 0 -0 0</pose>
 	</model> -->
 
-    <model name='ReadingDesk_01_002'>
+    <!-- <model name='ReadingDesk_01_002'>
         <static>true</static>    
         <include>
             <uri>model://aws_robomaker_residential_ReadingDesk_01</uri>
         </include>
         <pose frame=''>2.584720 3.969104 0.003168 0 -0 -1.564130</pose>
+	</model> -->
+
+    <model name='NightStand_01_007'>
+        <static>true</static>    
+        <include>
+            <uri>model://aws_robomaker_residential_NightStand_01</uri>
+        </include>
+        <pose frame=''>2.584720 3.969104 0.003168 0 -0 -0</pose>
 	</model>
 
 	<!-- <model name='FoldingDoor_01_001'>
